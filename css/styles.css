@@ -14,21 +14,17 @@
 }
 #side-bar .side-bar-wrapper  ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
   }
   
   #side-bar .side-bar-wrapper  ul li {
-    flex-grow: 1;
+    /* display: flex; */
   }
   
   #side-bar .side-bar-wrapper  ul li a {
-    display: block;
+    display: inline-flex;
     padding: 1em;
     background-color: LightGray;
-    text-align: center;
+    justify-content: space-evenly;
     margin-bottom: 0.2em;
     text-decoration: none;
     color: #0b5161;
